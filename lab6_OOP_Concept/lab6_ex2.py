@@ -24,18 +24,18 @@ s1.student_info()
 # s2.major = input("Enter major:")
 # s2.gpa = float(input("Enter GPA"))
 # s2.student_info()
-
-std = []
-
-n = int(input('How many Student? :  '))
-for i in range(n):
-    s = Student()
-    print(f"Please,enter info {i+1}:")
-    s.name = input("Enter name:")
-    s.major = input("Enter major:")
-    s.gpa = float(input("Enter GPA"))
-    std.append(s)
-
-# display all student in list
-for i in std:
-    i.student_info()
+#
+# std = []
+#
+# n = int(input('How many Student? :  '))
+# for i in range(n):
+#     s = Student()
+#     print(f"Please,enter info {i+1}:")
+#     s.name = input("Enter name:")
+#     s.major = input("Enter major:")
+#     s.gpa = float(input("Enter GPA"))
+#     std.append(s)
+#
+# # display all student in list
+# for i in std:
+#     i.student_info()
