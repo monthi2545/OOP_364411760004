@@ -16,20 +16,37 @@ OOP Exercise Chapter 6
 
 
 class Vehicle:
+   #class atttribute
+    my_vehicle = []
+
+
     def __init__(self,brand,model,color,maxspeed,price):
         self.brand = brand
         self.model = model
         self.color = color
         self.maxspeed = maxspeed
         self.price = price
-        #self.my_vihecle.append(self)
+        # self.my_vihecle.append(self)
 
-    def Vehicle (self):
+    def vehicle_detail(self):
         print(f'name:{self.brand}'
               f' model:{self.model} '
               f'color:{self.color} '
               f'maxspeed:{self.maxspeed}'
               f' price:{self.price}')
+
+    def delete_vehicle(self, index):
+        self.my_vehicle.pop(index)
+
+    def edit_vehicle_price(self,index,new_price):
+        self .my_vehicle[index].price = new_price
+
+    def edit_vehicle_color(self,index,new_color):
+        self .my_vehicle[index].color = new_color
+
+
+
+
 # vc = []
 # v = int(input('How many Vehicle? :  '))
 # for i in range(v):
